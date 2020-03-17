@@ -1,0 +1,8 @@
+# Oracle
+spring.datasource.url=jdbc:oracle:thin:@sit-tmng-db-1.sit.uspto.gov:1621/TALFDV524
+spring.datasource.username=TMNGDEVALF524
+spring.datasource.password=ALF524#2019May02
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+get-ticrs.delAPI=http://localhost:7800/ticrsIds/{$nodeID}
+#ticrs-cleanup-alf.ribbon.listOfServers=http://localhost:7800,http://localhost:7801,http://localhost:7802
+eureka.client.service.default-zone=http://localhost:8761/eureka
